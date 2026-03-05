@@ -1,4 +1,4 @@
-<p align="left" style="font-size:28px;"><strong><em>DOCUMENTO DA APLICAÇÃO</em></strong></p>
+# DOCUMENTO DA APLICAÇÃO
 
 <details>
   <summary><strong>📑 Sumário</strong></summary>
