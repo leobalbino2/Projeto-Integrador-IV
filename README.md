@@ -67,6 +67,32 @@ Para o desenvolvimento do projeto será utilizada a metodologia ágil Scrum, que
 # 5. Diagrama de classes
 
 # 6. Estudo de viabilidade
+O estudo de viabilidade é uma análise realizada para determinar se um projeto é ou não viavel. Para isso, são considerados aspectos técnicos, financeiros, de mercado e operacionais, buscando identificar dificuldades antes do inicio do desenvolvimento.
+
+### Viabilidade Tecnica
+Através da viabilidade técnica é possivel identificar se um projeto pode ser desenvolvido com as tecnologias e conhecimentos disponiveis pela equipe responsável, verificando as ferramentas utilizadas, infraestrutura necessária e a capacidade técnica dos desenvolvedores.
+
+No caso deste projeto, a equipe é formada por alunos do curso de Desenvolvimento de Software Multiplataforma, que possuem o conhecimento técnico necessário para dar suporte ao projeto, utilizando tecnologias como React, Node.js e JavaScript, além disso, serão utilizadas as plataformas GitHub para controle de versão e Figma para prototipação.
+
+### Viabilidade Financeira
+A viabilidade financeira analisa os custos envolvidos no desenvolvimento e na implementação e manutenção do projeto, além de considerar possíveis formas de retorno financeiro.
+Os custos de desenvolvimento para este projeto são reduzidos, pois o sistema será desenvolvido por estudantes utilizando ferramentas gratuitas.
+Dessa forma, considerando o baixo custo de desenvolvimento, o projeto apresenta viabilidade financeira dentro do contexto proposto.
+
+### Viabilidade de Mercado
+A viabilidade de mercado analisa se existe demanda para o projeto proposto, considerando o público alvo, diferencial da solução e as necessidades existentes no mercado.
+Na área da construção civil e de serviços manuais, é comum que profissionais autônomos ou pequenas empresas tenham dificuldade em divulgar seus serviços e alcançar novos clientes, ao mesmo tempo, clientes interessados nesses serviços muitas vezes podem ter dificuldades para encontrar profissionais confiáveis e comparar diferentes opções disponíveis.
+A proposta deste projeto é funcionar como um marketplace digital, intuitivo e eficiente para que profissionais apresentem seus serviços enquanto clientes podem buscar prestadores, solicitar orçamentos e agendar serviços de forma prática.
+Assim, é entendido que existe uma oportunidade de mercado para este sistema.
+
+### Viabilidade Operacional
+A viabilidade operacional identifica se o sistema pode ser utilizado de forma prática pelos usuários finais, considerando a facilidade de uso do sistema e adaptação ao contexto que sera aplicado.
+A plataforma foi idealizada para ser acessível por meio de navegadores web, podendo ser utilizada tanto em computadores como em dispositivos móveis. A interface tem como objetivo a simplicidade e clareza nas informações, permitindo que tanto profissionais e clientes possam usar o sistema sem grandes dificuldades.
+Essas características tornam o sistema operacionalmente viável e adequado para o público alvo.
+
+### Conclusão
+Com base na análise realizada, podemos concluir que o projeto apresenta viabilidade técnica, financeira, de mercado e operacional dentro do contexto que será desenvolvido. As tecnologias necessárias para o desenvolvimento são acessíveis e dominadas pela equipe, os custos são reduzidos e existe potencial para aplicação da proposta para facilitar a conexão entre clientes e profissionais na área da construção civil.
+O projeto se mostra viável para desenvolvimento e implementação como uma solução prática para intermediar a relação entre clientes e profissionais prestadores de serviços.
 
 # 7. Regras de negócio (Modelo canvas)
 
