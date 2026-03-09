@@ -85,7 +85,7 @@ Na área da construção civil e de serviços manuais, é comum que profissionai
 A proposta deste projeto é funcionar como um marketplace digital, intuitivo e eficiente para que profissionais apresentem seus serviços enquanto clientes podem buscar prestadores, solicitar orçamentos e agendar serviços de forma prática.
 Assim, é entendido que existe uma oportunidade de mercado para este sistema.
 
-### Viabilidade Operacional
+### Viabilidade Operacional
 A viabilidade operacional identifica se o sistema pode ser utilizado de forma prática pelos usuários finais, considerando a facilidade de uso do sistema e adaptação ao contexto que sera aplicado.
 A plataforma foi idealizada para ser acessível por meio de navegadores web, podendo ser utilizada tanto em computadores como em dispositivos móveis. A interface tem como objetivo a simplicidade e clareza nas informações, permitindo que tanto profissionais e clientes possam usar o sistema sem grandes dificuldades.
 Essas características tornam o sistema operacionalmente viável e adequado para o público alvo.
