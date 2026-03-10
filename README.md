@@ -21,33 +21,43 @@
 </details>
 
 # 1. Introdução
-Nos últimos anos, a forma como empresas do setor da construção civil se apresentam ao mercado mudou bastante. Ter um site deixou de ser algo opcional e passou a ser parte essencial de como um negócio é percebido pelos clientes, principalmente em áreas mais técnicas como a de estruturas metálicas, onde o cliente precisa confiar no trabalho antes mesmo de fechar qualquer contrato.
+Nos últimos anos, a forma como profissionais e empresas prestadoras de serviços se apresentam ao mercado passou por mudanças significativas. A presença digital deixou de ser um diferencial e tornou-se essencial para gerar visibilidade, credibilidade e facilitar o contato com clientes.
 
-Pensando nisso, este projeto integrador propõe o desenvolvimento de um site para uma empresa do ramo de construção de estruturas metálicas. A ideia surgiu de uma necessidade real: a empresa não contava com uma presença digital organizada, e processos como o contato com clientes e a solicitação de orçamentos aconteciam de forma manual e sem padronização.
+Entretanto, muitos profissionais autônomos e microempresas ainda dependem de processos informais, como mensagens por aplicativos e registros manuais, o que dificulta a organização de atendimentos, solicitações de orçamento e divulgação de seus serviços.
 
-O site foi desenvolvido para resolver isso de forma prática. Por ele, clientes podem conhecer os serviços e obras da empresa e solicitar orçamentos diretamente pela plataforma. Já o administrador conta com uma área restrita para gerenciar as solicitações recebidas e acompanhar informações financeiras do negócio. O objetivo não é só criar uma vitrine digital, mas oferecer uma ferramenta que realmente facilite o dia a dia da empresa e melhore a experiência de quem busca seus serviços.
+Diante desse cenário, este projeto integrador propõe o desenvolvimento de uma plataforma digital para intermediação e gestão de serviços. A solução permitirá que prestadores de serviços divulguem seus trabalhos e organizem seus atendimentos, enquanto clientes poderão localizar profissionais e solicitar orçamentos de forma centralizada.
+
+A empresa Estrutucasa, atuante no setor de estruturas metálicas e registrada como Microempreendedor Individual (MEI), será utilizada como estudo de caso para validação das funcionalidades da plataforma em um contexto real de mercado.
 
 ## • Objetivos
 
 ### Geral 
-Desenvolver uma aplicação web para uma empresa do ramo de estruturas metálicas, com o objetivo de ampliar sua presença digital e otimizar o processo de solicitação e gerenciamento de orçamentos. A plataforma permitirá que clientes conheçam os serviços oferecidos pela empresa e realizem solicitações de orçamento de forma prática, enquanto o administrador poderá acompanhar e organizar essas solicitações por meio de uma área de gerenciamento.
+Desenvolver uma plataforma web que facilite a conexão entre clientes e prestadores de serviços, oferecendo recursos para divulgação profissional, solicitação de orçamentos e gestão de atendimentos.
 
 ### Específicos 
-• Estruturar uma plataforma digital que apresente informações institucionais da empresa, seus serviços e projetos realizados, facilitando a comunicação com potenciais clientes.
+• Estruturar uma plataforma digital que permita o cadastro de profissionais e a divulgação organizada de seus serviços e portfólios.
 
-• Implementar um sistema de solicitação de orçamentos online, permitindo que usuários enviem informações sobre seus projetos de maneira organizada e padronizada.
+• Implementar um sistema de solicitação de orçamentos online, permitindo que clientes enviem demandas de forma padronizada e centralizada.
 
-• Desenvolver uma área administrativa restrita para gerenciamento das solicitações recebidas, possibilitando acompanhar orçamentos aprovados, em andamento ou finalizados.
+• Desenvolver um painel de gerenciamento para que profissionais acompanhem solicitações recebidas, status de atendimentos e histórico de serviços.
 
-• Organizar registros de orçamentos e valores, auxiliando no controle e acompanhamento das atividades comerciais da empresa.
+• Organizar categorias e subcategorias de serviços, facilitando a busca e a identificação de profissionais por área de atuação.
 
-• Aplicar conceitos e tecnologias aprendidas no curso de Desenvolvimento de Software Multiplataforma para a criação de uma solução funcional e responsiva.
+• Aplicar conceitos e tecnologias aprendidas no curso de Desenvolvimento de Software Multiplataforma na construção de uma solução funcional, responsiva e escalável.
 
 ### Metodologia
-O desenvolvimento da aplicação será realizado utilizando conceitos e práticas aprendidos ao longo do curso de Desenvolvimento de Software Multiplataforma (DSM). O projeto envolve a criação de uma plataforma web que integra interface visual, lógica de funcionamento e armazenamento de dados, permitindo o registro e gerenciamento de solicitações de orçamento.
+O desenvolvimento da aplicação será realizado com base nos conceitos e práticas aprendidos ao longo do curso de Desenvolvimento de Software Multiplataforma (DSM). O projeto envolve a criação de uma plataforma web que integra interface visual, lógica de funcionamento e armazenamento de dados, possibilitando o gerenciamento de usuários, serviços e solicitações de orçamento.
+
+Inicialmente, serão levantados os requisitos do sistema e definidos os principais fluxos de uso da plataforma. Em seguida, será elaborado um protótipo das telas para validação da experiência do usuário.
 
 ### Linguagens de Programação 
-Para o desenvolvimento da aplicação serão utilizadas tecnologias voltadas à construção de aplicações web modernas. O JavaScript será utilizado tanto no front-end quanto no back-end do sistema. No lado do cliente, será utilizada a biblioteca React, responsável pela criação da interface da plataforma, permitindo desenvolver páginas dinâmicas organizadas em componentes reutilizáveis. No lado do servidor, será utilizado o Node.js, responsável por processar as requisições da aplicação e realizar a comunicação com o banco de dados. Para o armazenamento das informações será utilizado o MongoDB, um banco de dados NoSQL que permite gerenciar os dados relacionados aos orçamentos e demais informações do sistema.
+Para o desenvolvimento da aplicação serão utilizadas tecnologias voltadas à construção de aplicações web modernas.
+
+O JavaScript será utilizado tanto no front-end quanto no back-end do sistema. No lado do cliente, será utilizada a biblioteca React, responsável pela criação da interface da plataforma, permitindo o desenvolvimento de páginas dinâmicas organizadas em componentes reutilizáveis.
+
+No lado do servidor, será utilizado o Node.js, responsável por processar requisições da aplicação e realizar a comunicação com o banco de dados.
+
+Para o armazenamento das informações será utilizado o mySQL, um banco de dados NoSQL que permite gerenciar dados de usuários, serviços e solicitações de orçamento de forma flexível e eficiente.
 
 ### Frameworks 
 Para auxiliar no desenvolvimento da interface da aplicação será utilizado o Tailwind CSS, um framework de estilização que facilita a criação de layouts modernos, responsivos e visualmente consistentes. Seu uso permite maior agilidade no desenvolvimento do front-end e melhor organização dos estilos utilizados na aplicação.
