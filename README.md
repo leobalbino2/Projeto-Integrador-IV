@@ -258,7 +258,7 @@ O projeto se mostra viável para desenvolvimento e implementação como uma solu
 
 # 7. Regras de negócio (Modelo canvas)
 
-![preview][./imgs/modelodenegocios.png]
+![preview][mdn]
 
 ### O QUE SERÁ REALIZADO?
 
@@ -317,3 +317,4 @@ O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de
 # 13. Referências
 
 [uscs]: imgs/usecasee.png
+[mdn]: imgs/modelodenegocios.png
