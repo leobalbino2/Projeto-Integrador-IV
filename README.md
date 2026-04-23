@@ -314,12 +314,12 @@ O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de
 # 10. Protótipo
 O protótipo do projeto foi criado através da plataforma de design e prototipagem Figma. O link segue logo à baixo.
 
-[Protótipo Fixly](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
+[Protótipo ConsertaAqui](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
 
 # 11. Aplicação
 A página para o GitHub do projeto se encontra no link abaixo:
 
-[Aplicação Fixly](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
+[Aplicação ConsertaAqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
 # 12. Considerações Finais
 
