@@ -340,5 +340,5 @@ O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenv
 [mdn]: imgs/modelodenegocios.png
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
-[plt]: imgs/paletaContrataAqui.png
+[plt]: imgs/paletaCores.png
 [fnt]: imgs/fonteContrataAqui.png
