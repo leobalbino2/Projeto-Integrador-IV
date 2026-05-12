@@ -305,6 +305,16 @@ Desenvolvimento e manutenção da aplicação web, hospedagem, tempo da equipe, 
 O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de monetização através de comissão por serviços realizados, planos para profissionais ou destaque de perfis dentro da plataforma.
 
 # 8. Design
+#### Paleta de cores
+As cores do projeto foram organizadas em funções específicas dentro da interface. A cor primária é utilizada como base visual, transmitindo confiança e estabilidade. A cor secundária complementa a identidade, sendo aplicada em elementos de apoio e interação. A cor terciária é usada para destaque, direcionando a atenção do usuário para ações importantes. Já a cor neutra é aplicada em textos e elementos secundários, garantindo legibilidade e equilíbrio visual.
+![Preview][plt]
+
+#### Fonte
+Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenvolvida para interfaces digitais. Sua estrutura favorece a leitura em telas, oferecendo boa legibilidade em diferentes tamanhos e dispositivos.
+![Preview][fnt]
+
+#### Logo
+
 
 # 9. Personas
 ![Preview][prsn]
@@ -314,14 +324,15 @@ O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de
 # 10. Protótipo
 O protótipo do projeto foi criado através da plataforma de design e prototipagem Figma. O link segue logo à baixo.
 
-[Protótipo ConsertaAqui](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
+[Protótipo ContrataAqui](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
 
 # 11. Aplicação
 A página para o GitHub do projeto se encontra no link abaixo:
 
-[Aplicação ConsertaAqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
+[Aplicação ContrataAqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
 # 12. Considerações Finais
+O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços. Um dos principais pontos foi a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
 
 # 13. Referências
 
@@ -329,3 +340,5 @@ A página para o GitHub do projeto se encontra no link abaixo:
 [mdn]: imgs/modelodenegocios.png
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
+[plt]: imgs/paletaContrataAqui.png
+[fnt]: imgs/fonteContrataAqui.png
