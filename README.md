@@ -324,12 +324,12 @@ Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenv
 # 10. Protótipo
 O protótipo do projeto foi criado através da plataforma de design e prototipagem Figma. O link segue logo à baixo.
 
-[Protótipo ContrataAqui](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
+[Protótipo Contrataqui](https://www.figma.com/design/nxjbL4eBC2eBWWsnFE1j9q/Prot%C3%B3tipo---PI-IV?node-id=0-1&t=GeNyzYo015Sem4jL-1 "hover text")
 
 # 11. Aplicação
 A página para o GitHub do projeto se encontra no link abaixo:
 
-[Aplicação ContrataAqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
+[Aplicação Contrataqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
 # 12. Considerações Finais
 O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços. Um dos principais pontos foi a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
@@ -341,4 +341,4 @@ O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenv
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
 [plt]: imgs/paletaCores2.png
-[fnt]: imgs/fonteContrataAqui.png
+[fnt]: imgs/fonteContrataqui.png
