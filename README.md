@@ -336,7 +336,7 @@ O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenv
 
 # 13. Referências
 
-[uscs]: imgs/usecasee.png
+[uscs]: imgs/blackusecase.jpeg
 [mdn]: imgs/modelodenegocios.png
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
