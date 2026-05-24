@@ -340,27 +340,50 @@ A página para o GitHub do projeto se encontra no link abaixo:
 O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços. Um dos principais pontos foi a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
 
 # 13. Referências
-INTER. Fonte tipográfica sans-serif utilizada para interfaces digitais. Disponível em: https://rsms.me/inter/. Acessado em: 24 de maio de 2026.
 
-CLOUDINARY. Plataforma de gerenciamento de imagens e vídeos em nuvem. Disponível em: https://cloudinary.com/. Acessado em: 24 de maio de 2026.
+__INTER.__ Fonte tipográfica sans-serif utilizada para interfaces digitais. 
+Disponível em: https://rsms.me/inter/. 
+Acessado em: 24 de maio de 2026.
 
-TAILWIND CSS. Framework CSS utilitário para construção de interfaces modernas. Disponível em: https://tailwindcss.com/. Acessado em: 24 de maio de 2026.
+__CLOUDINARY.__ Plataforma de gerenciamento de imagens e vídeos em nuvem. 
+Disponível em: https://cloudinary.com/. 
+Acessado em: 24 de maio de 2026.
 
-DOCKER. Plataforma para desenvolvimento, envio e execução de aplicações em contêineres. Disponível em: https://www.docker.com/. Acessado em: 24 de maio de 2026.
+__TAILWIND CSS.__ Framework CSS utilitário para construção de interfaces modernas. 
+Disponível em: https://tailwindcss.com/. 
+Acessado em: 24 de maio de 2026.
 
-TRIIDER. Plataforma online para contratação de serviços residenciais. Disponível em: https://www.triider.com.br/. Acessado em: 24 de maio de 2026.
+__DOCKER.__ Plataforma para desenvolvimento, envio e execução de aplicações em contêineres. 
+Disponível em: https://www.docker.com/. 
+Acessado em: 24 de maio de 2026.
 
-THUMBTACK. Plataforma online para contratação de profissionais e serviços locais. Disponível em: https://www.thumbtack.com/. Acessado em: 24 de maio de 2026.
+__TRIIDER.__ Plataforma online para contratação de serviços residenciais. 
+Disponível em: https://www.triider.com.br/. 
+Acessado em: 24 de maio de 2026.
 
-CRONOSHARE. Plataforma online para conexão entre clientes e prestadores de serviços. Disponível em: https://www.cronoshare.com.br/. Acessado em: 24 de maio de 2026.
+__THUMBTACK.__ Plataforma online para contratação de profissionais e serviços locais. 
+Disponível em: https://www.thumbtack.com/. 
+Acessado em: 24 de maio de 2026.
+
+__CRONOSHARE.__ Plataforma online para conexão entre clientes e prestadores de serviços. 
+Disponível em: https://www.cronoshare.com.br/. 
+Acessado em: 24 de maio de 2026.
  
-TRELLO. Plataforma de gestão de projetos e colaboração. Disponível em: https://trello.com/home. Acessado em: 22 de maio de 2026
+__TRELLO.__ Plataforma de gestão de projetos e colaboração. 
+Disponível em: https://trello.com/home. 
+Acessado em: 22 de maio de 2026
 
-FIGMA. Plataforma de design colaborativo online. Disponível em: https://www.figma.com/. Acessado em: 11 de abril de 2026. 
+__FIGMA.__ Plataforma de design colaborativo online. 
+Disponível em: https://www.figma.com/. 
+Acessado em: 11 de abril de 2026. 
 
-GITHUB. Plataforma de hospedagem de código-fonte e controle de versão. Disponível em: https://github.com/. Acessado em: 22 de maio de 2026. 
+__GITHUB.__ Plataforma de hospedagem de código-fonte e controle de versão. 
+Disponível em: https://github.com/. 
+Acessado em: 22 de maio de 2026. 
 
-DRAW.IO. Plataforma online para criação de diagramas de forma simples e colaborativa. Disponível em: https://app.diagrams.net. Acessado em: 13 de abril de 2026. 
+__DRAW.IO.__ Plataforma online para criação de diagramas de forma simples e colaborativa. 
+Disponível em: https://app.diagrams.net. 
+Acessado em: 13 de abril de 2026. 
 
 [uscs]: imgs/blackusecase.jpeg
 [mdn]: imgs/modelodenegocios.png
