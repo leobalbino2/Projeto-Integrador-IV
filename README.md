@@ -1,7 +1,7 @@
 # DOCUMENTO DA APLICAÇÃO
 
 <details>
-  <summary><strong>📑 Sumário</strong></summary>
+  <summary><strong> Sumário</strong></summary>
 
 - [1. Introdução](#1-introdução)
   - [Objetivos](#-objetivos)
@@ -311,11 +311,11 @@ O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de
 
 # 8. Design
 ### Paleta de cores
-As cores do projeto foram organizadas em funções específicas dentro da interface. A cor primária é utilizada como base visual, transmitindo confiança e estabilidade. A cor secundária complementa a identidade, sendo aplicada em elementos de apoio e interação. A cor terciária é usada para destaque, direcionando a atenção do usuário para ações importantes. Já a cor neutra é aplicada em textos e elementos secundários, garantindo legibilidade e equilíbrio visual.
+As cores do projeto foram organizadas em funções específicas dentro da interface. A cor primária é utilizada como base visual, transmitindo confiança e estabilidade. A cor secundária complementa a identidade, sendo aplicada em elementos de apoio e interação. A cor terciária é usada para destaque, direcionando a atenção do usuário para ações importantes. Já a cor neutra é aplicada em textos e elementos secundários, garantindo legibilidade e equilíbrio visual.<br>
 ![Preview][plt]
 
 ### Fonte
-Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenvolvida para interfaces digitais. Sua estrutura favorece a leitura em telas, oferecendo boa legibilidade em diferentes tamanhos e dispositivos.
+Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenvolvida para interfaces digitais. Sua estrutura favorece a leitura em telas, oferecendo boa legibilidade em diferentes tamanhos e dispositivos.<br>
 ![Preview][fnt]
 
 ### Logo
@@ -337,7 +337,9 @@ A página para o GitHub do projeto se encontra no link abaixo:
 [Aplicação Contrataqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
 # 12. Considerações Finais
-O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços. Um dos principais pontos foi a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
+O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços Contrataqui. Um dos principais pontos foi a reformulação do projeto, após o entendimento de que o escopo estava limitando uma construção mais ampla do sistema, impedindo o cumprimento completo dos requisitos propostos para este semestre. Além disso, houve a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
+
+Apesar das dificuldades, o projeto conseguiu atingir os objetivos estabelecidos para o semestre, estabelecendo também uma base sólida para a implementação de funcionalidades futuras e para a finalização das partes restantes, visando seu funcionamento completo.
 
 # 13. Referências
 
