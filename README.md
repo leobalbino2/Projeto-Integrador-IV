@@ -388,7 +388,7 @@ Disponível em: https://app.diagrams.net.<br>
 Acessado em: 13 de abril de 2026.
 
 [uscs]: imgs/blackusecase.jpeg
-[mdn]: imgs/imagem.png
+[mdn]: imgs/image.png
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
 [plt]: imgs/paletaCores2.png
