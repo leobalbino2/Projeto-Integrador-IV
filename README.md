@@ -222,6 +222,7 @@ Foi utilizado um banco de dados relacional (SQL), que permite maior controle sob
 Para facilitar a comunicação entre a aplicação e o banco de dados, foi utilizado o Prisma. Essa ferramenta atua como um ORM (Object-Relational Mapping), permitindo realizar operações no banco de forma mais simples, utilizando código em vez de comandos SQL diretos. Além disso, o Prisma auxilia na definição do modelo de dados, na criação das tabelas e na manutenção da estrutura do banco, tornando o desenvolvimento mais organizado e eficiente.
 
 # 5. Diagrama de classes
+![Preview][dcls]
 
 # 6. Estudo de viabilidade
 
@@ -319,7 +320,7 @@ Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenv
 ![Preview][fnt]
 
 ### Logo
-
+A logo do projeto é um logotipo composto pelo nome do sistema "Contrataqui", utilizando as cores #1A365D e preto com a fonte INTER.
 
 # 9. Personas
 ![Preview][prsn]
@@ -393,3 +394,4 @@ Acessado em: 13 de abril de 2026.
 [prsn2]: imgs/personaMariana.jpeg
 [plt]: imgs/paletaCores2.png
 [fnt]: imgs/font.jpeg
+[dcls]: imgs/diagramaClasse.png
