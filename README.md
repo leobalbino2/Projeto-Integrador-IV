@@ -394,4 +394,4 @@ Acessado em: 13 de abril de 2026.
 [prsn2]: imgs/personaMariana.jpeg
 [plt]: imgs/paletaCores2.png
 [fnt]: imgs/font.jpeg
-[dcls]: imgs/diagramaClasse.png
+[dcls]: imgs/diagramaClasses.png
