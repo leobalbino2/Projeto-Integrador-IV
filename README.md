@@ -220,6 +220,7 @@ O banco de dados foi desenvolvido de acordo com as necessidades da aplicação, 
 Foi utilizado um banco de dados relacional (SQL), que permite maior controle sobre a integridade das informações por meio de tabelas, chaves e relações. Esse modelo é amplamente utilizado em aplicações que exigem dados bem definidos e organizados.
 
 Para facilitar a comunicação entre a aplicação e o banco de dados, foi utilizado o Prisma. Essa ferramenta atua como um ORM (Object-Relational Mapping), permitindo realizar operações no banco de forma mais simples, utilizando código em vez de comandos SQL diretos. Além disso, o Prisma auxilia na definição do modelo de dados, na criação das tabelas e na manutenção da estrutura do banco, tornando o desenvolvimento mais organizado e eficiente.
+![Preview][dtbs]
 
 # 5. Diagrama de classes
 ![Preview][dcls]
@@ -398,3 +399,4 @@ Acessado em: 13 de abril de 2026.
 [plt]: imgs/paletaCores2.png
 [fnt]: imgs/font.jpeg
 [dcls]: imgs/diagramaClasses.png
+[dtbs]: imgs/database.jpeg
