@@ -313,10 +313,14 @@ O projeto pode ser inicialmente sem fins lucrativos, com possibilidade futura de
 # 8. Design
 ### Paleta de cores
 As cores do projeto foram organizadas em funções específicas dentro da interface. A cor primária é utilizada como base visual, transmitindo confiança e estabilidade. A cor secundária complementa a identidade, sendo aplicada em elementos de apoio e interação. A cor terciária é usada para destaque, direcionando a atenção do usuário para ações importantes. Já a cor neutra é aplicada em textos e elementos secundários, garantindo legibilidade e equilíbrio visual.<br>
-<img src="https://via.placeholder.com/60/1a365D/1a365D" />
-<img src="https://via.placeholder.com/60/2C7A7B/2C7A7B" />
-<img src="https://via.placeholder.com/60/F6AD55/F6AD55" />
-<img src="https://via.placeholder.com/60/4A5568/4A5568" />
+<table>
+<tr>
+<td><svg width="60" height="60"><rect width="60" height="60" fill="#1a365D"/></svg><br>#1A365D</td>
+<td><svg width="60" height="60"><rect width="60" height="60" fill="#2C7A7B"/></svg><br>#2C7A7B</td>
+<td><svg width="60" height="60"><rect width="60" height="60" fill="#F6AD55"/></svg><br>#F6AD55</td>
+<td><svg width="60" height="60"><rect width="60" height="60" fill="#4A5568"/></svg><br>#4A5568</td>
+</tr>
+</table>
 
 ### Fonte
 Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenvolvida para interfaces digitais. Sua estrutura favorece a leitura em telas, oferecendo boa legibilidade em diferentes tamanhos e dispositivos.<br>
