@@ -323,7 +323,7 @@ Para este projeto, foi escolhida a fonte Inter, uma tipografia sem serifa desenv
 ![Preview][fnt]
 
 ### Logo
-A logo do projeto é um logotipo composto pelo nome do sistema "Contrataqui", utilizando as cores ![#1A365D](https://img.shields.io/badge/-1A365D-1A365D?style=flat-square) e ![#000000D](https://img.shields.io/badge/-1A365D-1A365D?style=flat-square) com a fonte INTER.
+A logo do projeto é um logotipo composto pelo nome do sistema "Contrataqui", utilizando as cores ![#1A365D](https://img.shields.io/badge/-1A365D-1A365D?style=flat-square) e ![#000000](https://img.shields.io/badge/-000000-000000?style=flat-square) com a fonte INTER.
 
 # 9. Personas
 ![Preview][prsn]
