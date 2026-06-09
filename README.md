@@ -7,16 +7,17 @@
   - [Objetivos](#-objetivos)
 - [2. Requisitos](#2-requisitos)
 - [3. Modelo de casos de uso](#3-modelo-de-casos-de-uso)
-- [4. Banco de Dados](#4banco-de-dados)
-- [5. Diagrama de classes](#6-diagrama-de-classes)
-- [6. Estudo de viabilidade](#7-estudo-de-viabilidade)
-- [7. Regras de negócio (Modelo canvas)](#8-regras-de-negócio-modelo-canvas)
-- [8. Design](#9-design)
+- [4. Banco de Dados](#4-banco-de-dados)
+- [5. Diagrama de classes](#5-diagrama-de-classes)
+- [6. Estudo de viabilidade](#6-estudo-de-viabilidade)
+- [7. Regras de negócio (Modelo canvas)](#7-regras-de-negócio-modelo-canvas)
+- [8. Design](#8-design)
 - [9. Personas](#9-personas)
 - [10. Protótipo](#10-protótipo)
 - [11. Aplicação](#11-aplicação)
-- [12. Considerações Finais](#12-considerações-finais)
-- [13. Referências](#11-referências)
+- [12. Análise de Desempenho Estatístico](#12-análise-de-desempenho-estatístico)
+- [13. Considerações Finais](#13-considerações-finais)
+- [14. Referências](#14-referências)
 
 </details>
 
@@ -341,12 +342,73 @@ A página para o GitHub do projeto se encontra no link abaixo:
 
 [Aplicação Contrataqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
-# 12. Considerações Finais
+## 12. Análise de Desempenho Estatístico
+
+A partir dos indicadores extraídos dos dashboards de gestão e do perfil profissional, foram processadas métricas quantitativas para validar a eficiência operacional e o comportamento financeiro da plataforma:
+
+### Base de Dados de Referência
+Os valores abaixo representam a amostra real coletada dos indicadores de performance utilizados para as projeções e cálculos deste capítulo:
+
+1.  **Fluxo Mensal de Demandas (Jan-Jun)**: `[3, 4, 5, 5, 5, 8]`
+2.  **Faturamento por Tipo de Serviço**: `[4200.00, 3800.00, 3500.00, 3100.00, 2800.00]`
+3.  **Rentabilidade dos Profissionais de Destaque**: `[8100.00, 7700.00, 3150.00, 2600.00]`
+4.  **Índices de Satisfação (Avaliações)**: `[4.3, 4.5, 4.7, 4.5]`
+5.  **Status Operacional dos Contratos**: `Concluído (25), Aguardando (3), Aceito (1), Em Execução (1)`
+
+### 12.1 Indicadores de Centralidade (Média, Mediana e Moda)
+
+A tabela abaixo sintetiza o comportamento típico das cinco variáveis monitoradas:
+
+| Variável | Classificação | Média | Mediana | Moda | Configuração |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Fluxo Mensal de Demandas** | Quantitativa Discreta | 5,00 | 5,00 | 5 | Unimodal |
+| **Faturamento por Serviço** | Quantitativa Contínua | R$ 3.480,00 | R$ 3.500,00 | N/A | Amodal |
+| **Rentabilidade de Profissionais** | Quantitativa Contínua | R$ 5.387,50 | R$ 5.425,00 | N/A | Amodal |
+| **Índices de Satisfação** | Quantitativa Contínua | 4,50 | 4,50 | 4,5 | Unimodal |
+| **Status Operacional** | Qualitativa Nominal | N/A | N/A | 'Concluído' | Unimodal |
+
+#### Leitura dos Resultados
+*   **Demanda Mensal**: O equilíbrio entre média e mediana em 5 unidades revela um ecossistema estável, com crescimento orgânico.
+*   **Variáveis Financeiras**: A ausência de moda (amodal) no faturamento é comum em mercados de serviços, onde os orçamentos são personalizados e variados.
+*   **Qualidade Percebida**: A centralidade em 4,5 estrelas posiciona a plataforma em um patamar de excelência no atendimento.
+*   **Eficiência de Entrega**: A predominância do status 'Concluído' confirma que o fluxo de trabalho está sendo finalizado com sucesso na maioria dos casos.
+
+---
+
+### 12.2 Estudo de Dispersão e Variabilidade Relativa
+
+Análise da oscilação dos dados em relação ao comportamento médio do sistema:
+
+| Variável | Média | Variância | Desvio Padrão | Coef. de Variação (CV) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Fluxo Mensal de Demandas** | 5,00 | 2,80 | 1,67 unidades | 33,47% |
+| **Faturamento por Serviço** | 3.480,00 | 307.000,00 | R$ 554,08 | 15,92% |
+| **Rentabilidade de Profissionais** | 5.387,50 | 8.493.958,33 | R$ 2.914,44 | **54,10%** |
+
+#### Diagnóstico da Variabilidade
+*   **Ponto de Maior Oscilação**: A **Rentabilidade de Profissionais (54,10%)** apresenta a maior flutuação, o que é natural em sistemas de marketplace onde profissionais "top-tier" tendem a escalar ganhos muito acima da média geral.
+*   **Ponto de Maior Estabilidade**: O **Faturamento por Serviço (15,92%)** mostra-se o indicador mais homogêneo, sugerindo uma padronização saudável nos preços praticados por categoria.
+
+---
+
+### 12.3 Conclusões Baseadas em Evidências Visuais
+
+#### Correlação Preço vs. Excelência
+Através da análise de dispersão, observa-se que o valor investido no contrato não condiciona a nota final. Serviços de entrada e serviços premium mantêm o mesmo nível de satisfação, validando a integridade da rede de profissionais.
+
+#### Evolução Temporal
+Os dados apontam para uma **curva ascendente de adesão**, com o volume de novos contratos dobrando entre o início e o fim do período analisado.
+
+#### Saúde do Portfólio de Contratos
+A taxa de conclusão de 83,3% indica um baixo índice de atrito operacional, reforçando a confiabilidade do modelo de negócio.
+
+
+# 13. Considerações Finais
 O quarto semestre do projeto trouxe desafios que impactaram diretamente o desenvolvimento da plataforma de intermediação de serviços Contrataqui. Um dos principais pontos foi a reformulação do projeto, após o entendimento de que o escopo estava limitando uma construção mais ampla do sistema, impedindo o cumprimento completo dos requisitos propostos para este semestre. Além disso, houve a necessidade de aprofundar o conhecimento técnico da equipe nas tecnologias utilizadas, como React, Node.js, TypeScript e Tailwind CSS, especialmente na integração entre Frontend e Backend.
 
 Apesar das dificuldades, o projeto conseguiu atingir os objetivos estabelecidos para o semestre, estabelecendo também uma base sólida para a implementação de funcionalidades futuras e para a finalização das partes restantes, visando seu funcionamento completo.
 
-# 13. Referências
+# 14. Referências
 
 __INTER.__ Fonte tipográfica sans-serif utilizada para interfaces digitais.<br>
 Disponível em: https://rsms.me/inter/.<br>
