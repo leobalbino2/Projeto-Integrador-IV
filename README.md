@@ -15,7 +15,7 @@
 - [9. Personas](#9-personas)
 - [10. Protótipo](#10-protótipo)
 - [11. Aplicação](#11-aplicação)
-- [12. Análise de Desempenho Estatístico](#12-análise-de-desempenho-estatístico)
+- [12. Relatório de Análise Estatística](#12-relatório-de-análise-estatística)
 - [13. Considerações Finais](#13-considerações-finais)
 - [14. Referências](#14-referências)
 
@@ -342,68 +342,68 @@ A página para o GitHub do projeto se encontra no link abaixo:
 
 [Aplicação Contrataqui](https://github.com/leobalbino2/Projeto-Integrador-IV "hover text")
 
-## 12. Análise de Desempenho Estatístico
+## 12. Relatório de Análise Estatística
 
-A partir dos indicadores extraídos dos dashboards de gestão e do perfil profissional, foram processadas métricas quantitativas para validar a eficiência operacional e o comportamento financeiro da plataforma:
+Com base nos dados extraídos diretamente dos gráficos do administrador e do profissional, foram geradas as seguintes métricas para análise do sistema:
 
-### Base de Dados de Referência
-Os valores abaixo representam a amostra real coletada dos indicadores de performance utilizados para as projeções e cálculos:
+### Dados Brutos de Referência
+Os valores utilizados para os cálculos foram retirados dos indicadores de desempenho apresentados nos gráficos:
 
-1.  **Fluxo Mensal de Demandas (Jan-Jun)**: `[3, 4, 5, 5, 5, 8]`
-2.  **Faturamento por Tipo de Serviço**: `[4200.00, 3800.00, 3500.00, 3100.00, 2800.00]`
-3.  **Rentabilidade dos Profissionais de Destaque**: `[8100.00, 7700.00, 3150.00, 2600.00]`
-4.  **Índices de Satisfação (Avaliações)**: `[4.3, 4.5, 4.7, 4.5]`
-5.  **Status Operacional dos Contratos**: `Concluído (25), Aguardando (3), Aceito (1), Em Execução (1)`
+1.  **Novos Contratos por Mês (Jan-Jun)**: `[3, 4, 5, 5, 5, 8]`
+2.  **Receita por Serviço (Top 5)**: `[4200.00, 3800.00, 3500.00, 3100.00, 2800.00]`
+3.  **Receita dos Top Profissionais**: `[8100.00, 7700.00, 3150.00, 2600.00]`
+4.  **Avaliação dos Profissionais**: `[4.3, 4.5, 4.7, 4.5]`
+5.  **Situação dos Contratos (Status)**: `Concluído (25), Pendente (3), Aceito (1), Em andamento (1)`
 
-### 12.1 Indicadores de Centralidade (Média, Mediana e Moda)
+### 12.1 Indicadores de Tendência Central
 
-A tabela abaixo apresenta o comportamento típico das cinco variáveis monitoradas:
+Tabela com os valores de média, mediana e moda para as variáveis escolhidas:
 
-| Variável | Classificação | Média | Mediana | Moda | Configuração |
+| Variável | Tipo de Dado | Média | Mediana | Moda | Tipo de Moda |
 | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Fluxo Mensal de Demandas** | Quantitativa Discreta | 5,00 | 5,00 | 5 | Unimodal |
-| **Faturamento por Serviço** | Quantitativa Contínua | R$ 3.480,00 | R$ 3.500,00 | N/A | Amodal |
-| **Rentabilidade de Profissionais** | Quantitativa Contínua | R$ 5.387,50 | R$ 5.425,00 | N/A | Amodal |
-| **Índices de Satisfação** | Quantitativa Contínua | 4,50 | 4,50 | 4,5 | Unimodal |
-| **Status Operacional** | Qualitativa Nominal | N/A | N/A | 'Concluído' | Unimodal |
+| **Novos Contratos por Mês** | Quantitativa Discreta | 5,00 | 5,00 | 5 | Unimodal |
+| **Receita por Serviço** | Quantitativa Contínua | R$ 3.480,00 | R$ 3.500,00 | N/A | Amodal |
+| **Receita dos Top Profissionais** | Quantitativa Contínua | R$ 5.387,50 | R$ 5.425,00 | N/A | Amodal |
+| **Avaliação dos Profissionais** | Quantitativa Contínua | 4,50 | 4,50 | 4,5 | Unimodal |
+| **Situação dos Contratos** | Qualitativa Nominal | N/A | N/A | 'Concluído' | Unimodal |
 
-#### Leitura dos Resultados
-*   **Demanda Mensal**: O equilíbrio entre média e mediana em 5 unidades revela um ecossistema estável, com crescimento orgânico.
-*   **Variáveis Financeiras**: A ausência de moda (amodal) no faturamento é comum em mercados de serviços, onde os orçamentos são personalizados e variados.
-*   **Qualidade Percebida**: A centralidade em 4,5 estrelas posiciona a plataforma em um patamar de excelência no atendimento.
-*   **Eficiência de Entrega**: A predominância do status 'Concluído' confirma que o fluxo de trabalho está sendo finalizado com sucesso na maioria dos casos.
+#### Comentários sobre os Dados
+*   **Novos Contratos**: A média de 5 contratos por mês mostra um volume constante de novos pedidos no sistema.
+*   **Receitas**: Como os valores de serviços e ganhos dos profissionais variam muito, não existe um valor que se repete (amodal).
+*   **Avaliação**: A nota média de 4,5 indica que os profissionais estão sendo bem avaliados pelos clientes.
+*   **Situação dos Contratos**: A maioria dos contratos no sistema aparece com o status 'Concluído'.
 
 ---
 
-### 12.2 Estudo de Dispersão e Variabilidade Relativa
+### 12.2 Métricas de Dispersão e Variabilidade
 
-Análise da oscilação dos dados em relação ao comportamento médio do sistema:
+Cálculo da variação dos dados em relação à média para as variáveis quantitativas:
 
 | Variável | Média | Variância | Desvio Padrão | Coef. de Variação (CV) |
 | :--- | :---: | :---: | :---: | :---: |
-| **Fluxo Mensal de Demandas** | 5,00 | 2,80 | 1,67 unidades | 33,47% |
-| **Faturamento por Serviço** | 3.480,00 | 307.000,00 | R$ 554,08 | 15,92% |
-| **Rentabilidade de Profissionais** | 5.387,50 | 8.493.958,33 | R$ 2.914,44 | **54,10%** |
+| **Novos Contratos por Mês** | 5,00 | 2,80 | 1,67 contratos | 33,47% |
+| **Receita por Serviço** | 3.480,00 | 307.000,00 | R$ 554,08 | 15,92% |
+| **Receita dos Top Profissionais** | 5.387,50 | 8.493.958,33 | R$ 2.914,44 | **54,10%** |
 
-#### Diagnóstico da Variabilidade
-*   **Ponto de Maior Oscilação**: A **Rentabilidade de Profissionais (54,10%)** apresenta a maior variação, o que é natural em sistemas de marketplace onde profissionais mais bem avaliados tendem a escalar ganhos muito acima da média geral.
-*   **Ponto de Maior Estabilidade**: O **Faturamento por Serviço (15,92%)** se mostra o indicador mais homogêneo, sugerindo uma padronização saudável nos preços praticados por categoria.
+#### Avaliação da Variabilidade Relativa
+*   **Maior Variabilidade**: A **Receita dos Top Profissionais (54,10%)** é a que mais varia, pois alguns profissionais ganham valores bem mais altos que outros.
+*   **Menor Variabilidade**: A **Receita por Serviço (15,92%)** é a mais estável, indicando que os preços dos serviços não mudam drasticamente entre as categorias.
 
 ---
 
-### 12.3 Conclusões Baseadas em Evidências Visuais
+### 12.3 Verificação dos Gráficos
 ![Preview][adm1]
 ![Preview][adm2]
 ![Preview][pro]
 
-#### Correlação Preço vs. Excelência
-Através da análise de dispersão, observa-se que o valor investido no contrato não condiciona a nota final. Serviços de entrada e serviços premium mantêm o mesmo nível de satisfação, validando a integridade da rede de profissionais.
+#### Preço vs. Qualidade (Dispersão)
+O gráfico mostra que a nota de avaliação (4.5) se mantém estável tanto para serviços baratos quanto para serviços caros. Não há uma ligação direta entre cobrar mais e ter uma nota maior ou menor.
 
-#### Evolução Temporal
-Os dados apontam para uma **curva ascendente de adesão**, com o volume de novos contratos dobrando entre o início e o fim do período analisado.
+#### Tendência ao Longo do Tempo (Séries Temporais)
+O gráfico de Novos Contratos mostra uma tendência de subida, começando com 3 contratos em janeiro e terminando com 8 em junho.
 
-#### Saúde do Portfólio de Contratos
-A taxa de conclusão de 83,3% indica um baixo índice de atrito operacional, reforçando a confiabilidade do modelo de negócio.
+#### Distribuição por Status (Pizza)
+O gráfico confirma que 83,3% dos contratos já foram concluídos, mostrando que o fluxo de trabalho está funcionando.
 
 
 # 13. Considerações Finais
