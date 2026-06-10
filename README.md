@@ -465,6 +465,6 @@ Acessado em: 13 de abril de 2026.
 [fnt]: imgs/font.jpeg
 [dcls]: imgs/diagramaClasses.png
 [dtbs]: imgs/database.jpeg
-[adm1]: imgs/administrador1.jpeg
+[adm1]: imgs/admnistrador1.jpeg
 [adm2]: imgs/administrador2.jpeg
 [pro]: imgs/profissional.jpeg
