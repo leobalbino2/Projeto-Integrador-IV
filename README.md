@@ -347,7 +347,7 @@ A página para o GitHub do projeto se encontra no link abaixo:
 A partir dos indicadores extraídos dos dashboards de gestão e do perfil profissional, foram processadas métricas quantitativas para validar a eficiência operacional e o comportamento financeiro da plataforma:
 
 ### Base de Dados de Referência
-Os valores abaixo representam a amostra real coletada dos indicadores de performance utilizados para as projeções e cálculos deste capítulo:
+Os valores abaixo representam a amostra real coletada dos indicadores de performance utilizados para as projeções e cálculos:
 
 1.  **Fluxo Mensal de Demandas (Jan-Jun)**: `[3, 4, 5, 5, 5, 8]`
 2.  **Faturamento por Tipo de Serviço**: `[4200.00, 3800.00, 3500.00, 3100.00, 2800.00]`
@@ -357,7 +357,7 @@ Os valores abaixo representam a amostra real coletada dos indicadores de perform
 
 ### 12.1 Indicadores de Centralidade (Média, Mediana e Moda)
 
-A tabela abaixo sintetiza o comportamento típico das cinco variáveis monitoradas:
+A tabela abaixo apresenta o comportamento típico das cinco variáveis monitoradas:
 
 | Variável | Classificação | Média | Mediana | Moda | Configuração |
 | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -386,12 +386,15 @@ Análise da oscilação dos dados em relação ao comportamento médio do sistem
 | **Rentabilidade de Profissionais** | 5.387,50 | 8.493.958,33 | R$ 2.914,44 | **54,10%** |
 
 #### Diagnóstico da Variabilidade
-*   **Ponto de Maior Oscilação**: A **Rentabilidade de Profissionais (54,10%)** apresenta a maior flutuação, o que é natural em sistemas de marketplace onde profissionais "top-tier" tendem a escalar ganhos muito acima da média geral.
-*   **Ponto de Maior Estabilidade**: O **Faturamento por Serviço (15,92%)** mostra-se o indicador mais homogêneo, sugerindo uma padronização saudável nos preços praticados por categoria.
+*   **Ponto de Maior Oscilação**: A **Rentabilidade de Profissionais (54,10%)** apresenta a maior variação, o que é natural em sistemas de marketplace onde profissionais mais bem avaliados tendem a escalar ganhos muito acima da média geral.
+*   **Ponto de Maior Estabilidade**: O **Faturamento por Serviço (15,92%)** se mostra o indicador mais homogêneo, sugerindo uma padronização saudável nos preços praticados por categoria.
 
 ---
 
 ### 12.3 Conclusões Baseadas em Evidências Visuais
+![Preview][adm1]
+![Preview][adm2]
+![Preview][pro]
 
 #### Correlação Preço vs. Excelência
 Através da análise de dispersão, observa-se que o valor investido no contrato não condiciona a nota final. Serviços de entrada e serviços premium mantêm o mesmo nível de satisfação, validando a integridade da rede de profissionais.
@@ -455,10 +458,13 @@ Disponível em: https://app.diagrams.net.<br>
 Acessado em: 13 de abril de 2026.
 
 [uscs]: imgs/blackusecase.jpeg
-[mdn]: imgs/image.png
+[mdn]: imgs/modelonnegocio.png
 [prsn]: imgs/personaMarcio.jpeg
 [prsn2]: imgs/personaMariana.jpeg
 [plt]: imgs/paletaCores2.png
 [fnt]: imgs/font.jpeg
 [dcls]: imgs/diagramaClasses.png
 [dtbs]: imgs/database.jpeg
+[adm1]: imgs/administrador1.jpeg
+[adm2]: imgs/administrador2.jpeg
+[pro]: imgs/profissional.jpeg
